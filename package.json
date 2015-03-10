@@ -1,5 +1,5 @@
 {
-  "name": "peerflix-server",
+  "name": "peerflix-server-r",
   "version": "0.0.21",
   "author": "Aliaksei Sapach <dreamsonic@tut.by>",
   "description": "Streaming torrent client for node.js with web ui.",
