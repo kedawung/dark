@@ -1,10 +1,10 @@
 {
   "name": "peerflix-server-r",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Aliaksei Sapach <dreamsonic@tut.by>",
   "description": "Personal Fork: Streaming torrent client for node.js with web ui.",
   "bin": {
-    "peerflix-server": "./server/bin.js"
+    "peerflix-server-r": "./server/bin.js"
   },
   "scripts": {
     "start": "node ./server/bin.js",
