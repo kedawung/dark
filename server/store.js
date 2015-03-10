@@ -65,9 +65,11 @@ var store = _.extend(new events.EventEmitter(), {
   remove: function (infoHash) {
     var torrent = torrents[infoHash];
     torrent.destroy();
-    torrent.remove(function () {
-      torrent.emit('destroyed');
-    });
+    if (options.removeTorrent){
+      torrent.remove(function () {
+        torrent.emit('destroyed');
+      });
+    }
     delete torrents[infoHash];
     save();
   },
