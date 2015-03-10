@@ -1,8 +1,8 @@
 {
   "name": "peerflix-server-r",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "author": "Aliaksei Sapach <dreamsonic@tut.by>",
-  "description": "Streaming torrent client for node.js with web ui.",
+  "description": "Personal Fork: Streaming torrent client for node.js with web ui.",
   "bin": {
     "peerflix-server": "./server/bin.js"
   },
@@ -13,7 +13,7 @@
   "main": "./server/bin.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/asapach/peerflix-server.git"
+    "url": "https://github.com/ryanramage/peerflix-server.git"
   },
   "keywords": [
     "bittorrent",
@@ -32,7 +32,7 @@
     "range-parser": "~1.0.0",
     "read-torrent": "~1.0.0",
     "socket.io": "~0.9.17",
-    "torrent-stream": "~0.13.3"
+    "torrent-stream": "^0.17.0"
   },
   "optionalDependencies": {
     "fluent-ffmpeg": "^2.0.0-rc3"
