@@ -35,6 +35,9 @@ The application stores its current state (list of torrents) in `~/.config/peerfl
 
 If you want to run peerflix-server as a daemon, you can do it using [forever](https://github.com/nodejitsu/forever):
 
+## Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 `npm install -g forever`
 
 `forever start /usr/local/bin/peerflix-server` (the path depends on your distribution and npm configuration)
